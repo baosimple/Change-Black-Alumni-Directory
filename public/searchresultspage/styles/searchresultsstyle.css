@@ -1,0 +1,138 @@
+.jumbotron {
+  height: 300px;
+}
+
+.container.jumbotron-text {
+  height: 176px;
+}
+
+.div-background {
+  background-image: url('https://res.cloudinary.com/abillionveg/image/upload/v1545024443/d057d43aa715836355d70e020e2e897f256b9f95_p7loyt.jpg');
+}
+
+.clear-floats {
+    clear: both;
+}
+
+.page-extension {
+    float: left;
+}
+
+.container-div {
+    margin-top: 0px;
+    padding: 10px;
+    /*border: 1px solid rgb(224, 229, 229);*/
+    background-color: rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.imgBackground{
+    height: 150px;
+    width: 250px;
+    background-color: rgba(200,100,0,.5);
+    z-index: -1;
+}
+
+.card-image {
+    /* z-index: -1; */
+    /* height: 225px;  */
+    height: 170px;
+    width: 170px;
+
+    object-fit: cover;
+    /*deafult: none*/
+
+    border-radius: 50%;
+
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    border:1px solid grey;
+
+}
+
+.card-text{
+    /* font-size: 15px; */
+    height: 125px;
+    overflow-y: auto;
+}
+
+.card-text::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.card-text::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(216, 171, 76);
+}
+
+.outside-header-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-div {
+    width: 95%;
+    padding: 2% 0% 0% 0%;
+    border-bottom: 2px solid gray;
+}
+
+.search-header { /* "Search Result" */
+    font-size: 30px;
+}
+
+.card {
+    border: none;
+}
+
+#text-wrap * {
+    height: 30px;
+}
+
+.text-wrap {
+    margin-bottom: 10px;
+}
+
+.row-div {
+    margin-top: 15px;
+    margin-bottom: 30px; /*deafult: 15*/
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.page-nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0% 2% 0%;
+}
+
+.results-container {
+    height: fit-content;
+}
+
+div.card-body a.btn {
+    color: white;
+}
+
+.disable {
+    pointer-events: none;
+    cursor: default;
+}
+
+.no-results {
+    background-color: white;
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.no-results p {
+    margin: 0;
+}
